@@ -1,10 +1,1 @@
-# gestao_rh
-# gestao_rh
-# gestao_rh
-# gestao_rh
-# gestao_rh
-# gestao_rh
-# gestao_rh
-# gestao_rh
-# gestao_rh
-# gestao_rh
+# curso-django-gestao_rh
