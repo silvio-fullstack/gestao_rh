@@ -8,5 +8,6 @@ class Documento(models.Model):
     pertence = models.ForeignKey(
         Funcionario, on_delete=models.SET_NULL, null=True, blank=True
         )
+        
     def __str__(self):
         return self.descricao
