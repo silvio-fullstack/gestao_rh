@@ -1,2 +1,5 @@
 db.sqlite3
 venv/
+*.pyc
+gestao_rh/ __pycache__/
+apps/__pycache__/
