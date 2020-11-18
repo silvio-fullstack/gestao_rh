@@ -9,7 +9,7 @@
       Ola {{ usuario.funcionario.user }}
     </div>
     <div class="col-sm">
-      One of three columns
+      Empresa {{ usuario.funcionario.empresa.nome }}
     </div>
     <div class="col-sm">
       <a href="{% url 'logout' %}">LogOff</a>
@@ -17,7 +17,7 @@
       {% if usuario.funcionario.empresa %}
         <a href="{% url 'edit_empresa' usuario.funcionario.empresa.id %}">Editar Empresa</a>
       {% else %}
-        <a href="">Criar Empresa</a>
+        <a href="{% url 'create_empresa' %}">Criar Empresa</a>
       {% endif %}
     </div>
   </div>
